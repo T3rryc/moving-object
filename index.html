@@ -5,8 +5,42 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Moving Object</title>
+    <style>
+        body{
+            font-family: 'Courier New', Courier, monospace;
+        }
+        #commands h3{
+            margin-top: 0;
+        }
+        #commands pre{
+            margin-top: 0;
+        }
+        #commands code{
+            margin-top: 0;
+        }
+        canvas{
+            border: solid #000 1px;
+            border-radius: 1px;
+        }
+            
+        
+    </style>
+    <script src="main.js" defer></script>
 </head>
 <body>
-    <h1> Moving Object!!</h1>
+    
+    <header>
+        <h1>Moving Object</h1>
+        <hr>
+    </header>
+    <section id="commands">
+        <h3>Commands Used</h3>
+        <code>npm init <br>
+            npm i -D parcel <br>
+            npx parcel index.html
+        </code>
+    </section>
+    <hr>
+  <canvas width="600" height="350"></canvas>
 </body>
 </html>
